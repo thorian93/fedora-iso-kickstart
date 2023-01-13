@@ -1,8 +1,3 @@
-# Centos kickstart image generator
-This script download latest CentOS minimal iso image and generate automate installation image
-* config - folder contains configs
-* images - folder contain generated images
+# Fedora Kickstart ISO Generator
 
-Script need run in privileged user or sudoer user (for mount downloaded iso image)
-
-Password for root - password, after install system, please change password for you needs.
+This project downloads a Fedora installer ISO and bakes a kickstart file into it.
